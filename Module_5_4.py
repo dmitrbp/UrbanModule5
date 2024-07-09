@@ -18,6 +18,7 @@ class House:
                 print(i)
         else:
             print(f'Этажа {new_floor} не существует')
+
     def __len__(self):
         return self.number_of_floors
 
